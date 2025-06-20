@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
 from werkzeug.serving import run_simple
-
+import os
 from vulan.app import app as vuln_app
 
 # Import external apps
